@@ -2,27 +2,84 @@ body {
 	background-color: #EBC8EC ;
 	color: black;
 	font-family: Princess Sofia;
-
 	}
-	h1{
-		text-align: center;
-		font-size: 50px;
-		color: #7B68EE;
+@import "../node_modules/bootstrap/scss/functions";
+$body-bg: #EBC8EC;
+$body-color: #EBC8EC;
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: #7B68EE;
 	} 
-	p{
-		font-size: 36px;
 
+p {
+	font-size: 36px;
+	margin-left: 10px;
 	}
+
 img {
 	width:  100%;
-	height:  550px;
+	height:  400px;
 	object-fit: cover;
-}
-*{
-margin: 0;
-padding: 0;
-}
-ul{
+	}
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+ul {
 	margin: 20px;
-	font-size:30px ;
+	font-size:30px;
+	list-style: none;
+	}
+.contact {
+	text-align: center;
+}
+.section {
+	display: flex;
+	position: relative;
+	margin-bottom: 30px;
+}
+.section>p {
+font-size: 40px;
+margin-left: 10px;
+position: absolute;
+background-color: #F2D7FF;
+top: 50%;
+transform: translate(1000px,-30px);
+border-radius: 30%;
+}
+@media screen and (max-width: 900px){
+	body{
+		background-color: lightcyan;
+	}
+}
+@media (max-width: 576px){
+
+	img{
+		height: 300px;
+	}
+}
+.button {
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	top: 5%;
+	right: 20px;
+	position: fixed;
+	z-index: 2;
+}
+#games {
+	background-color: #E2FFF8;
+	border-radius: 30%;
+	position: absolute;
+	transform: translate(20px,-30px);
+}
+#jokes{
+	background-color: #E2FFF8;
+	border-radius: 30%;
+	position: absolute;
+	transform: translate(20px,-30px);
 }

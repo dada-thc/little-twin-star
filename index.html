@@ -7,32 +7,73 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/11f4106c14.js" crossorigin="anonymous"></script>
 </head>
-<body>
-<h1>Little twin stars</h1>
-<div>
-	<p>Introduction</p>
-	<img id="intro" src="https://wallpaperaccess.com/full/1309612.jpg">
-</div>
-<div>
-	<p>Game Time</p>
-	<img id="game" src="http://cdn.shopify.com/s/files/1/0107/5124/6372/collections/Little_Twin_Star_Header_1200x1200.png?v=1569551795">
-</div>
-<div>
-	<p>Movies</p>
-	<img src="https://www.line-stickers.com/wp-content/uploads/2015/08/little-twin-stars.png">
-</div>
-<div>
-	<p>Jokes</p>
-	<img src="https://static.wikia.nocookie.net/hellokitty/images/d/d0/Sanrio_Characters_Kiki_Image001.png/revision/latest/top-crop/width/360/height/450?cb=20170522025546">
-</div>
-<p>	Contact Information</p>
-	<ul>
-		<li>Email littletwinstar@gmail.com</li>
-	<li>Kiki,Lala's cloud house</li>
-	<li>the sky</li>
-</ul>
+<body class="p-3 mb-2 bg-warning">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Introduction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Games</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            movies
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+	<h1>Little twin stars</h1>
+	<img class="button" src="https://cdn3.vectorstock.com/i/1000x1000/88/72/button-love-color-pink-glossy-vector-20368872.jpg"> 
+	<div class="section">
+		<p>Introduction</p>
+		<img  src="https://wallpaperaccess.com/full/1309612.jpg">
+	</div>
+	<div class="section">
+		<p id="games">Game Time</p>
+		<img src="http://cdn.shopify.com/s/files/1/0107/5124/6372/collections/Little_Twin_Star_Header_1200x1200.png?v=1569551795">
+	</div>
+	<div class="section">
+		<p>Movies</p>
+		<img src="https://www.line-stickers.com/wp-content/uploads/2015/08/little-twin-stars.png">
+	</div>
+	<div class="section">
+		<p id="jokes">Jokes</p>
+		<img src="https://static.wikia.nocookie.net/hellokitty/images/d/d0/Sanrio_Characters_Kiki_Image001.png/revision/latest/top-crop/width/360/height/450?cb=20170522025546">
+	</div>
+	<div class="contact">
+		<p>	Contact Information</p>
+		<ul>
+			<li>Email littletwinstar@gmail.com</li>
+			<li>Kiki,Lala's cloud house</li>
+			<li>the sky</li>
+		</ul>
+	</div>
 </body>
 </html>
